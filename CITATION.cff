@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or the derived data, please cite the manuscript below."
+title: "SCED-native reserve-exceedance energy (REE) screening: replication package"
+version: 1.0.0
+date-released: 2026-07-11
+authors:
+  - family-names: Park
+    given-names: Chankook
+    orcid: "https://orcid.org/0000-0002-5433-9937"
+    affiliation: "Division of Climate Change, Hankuk University of Foreign Studies"
+repository-code: "https://github.com/thxncu/Security-Constrained-Economic-Dispatch"
+license: MIT
+keywords:
+  - resource adequacy
+  - reserve-exceedance energy
+  - security-constrained economic dispatch
+  - ERCOT
+  - reliability screening
+preferred-citation:
+  type: article
+  title: "Security-Constrained Economic Dispatch (SCED)-native reserve-exceedance estimation for public-data reliability screening in power systems"
+  authors:
+    - family-names: Park
+      given-names: Chankook
+      orcid: "https://orcid.org/0000-0002-5433-9937"
+  journal: "Electric Power Systems Research"
+  year: 2026
+  notes: "Manuscript reference EPSR-D-26-05120 (under review)."

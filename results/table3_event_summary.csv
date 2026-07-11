@@ -1,0 +1,4 @@
+event,hours,peak_load_mw,min_prc_mw,hours_prc_below_8gw,rtordpa_gt0_hours,rtordpa_gt10_hours,max_rtordpa,max_res_irr_outage_mw
+January 2025 main,144,77537,6213,17,50,9,109.11,15372
+Winter Storm Elliott 2022,216,73963,4073,146,56,13,37.78,19213
+Winter Storm Uri 2021,288,69222,747,282,107,102,8993.6,53641

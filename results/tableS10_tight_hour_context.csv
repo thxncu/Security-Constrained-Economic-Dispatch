@@ -1,0 +1,7 @@
+event,hour_class,hours,mean_wind_mw,wind_share_of_event_max_pct,mean_gas_mw,mean_res_irr_outage_mw,mean_load_mw
+January 2025 main,Tight,17,10452,38,34825,13591,63626
+January 2025 main,Other,127,15145,56,27258,12867,64078
+Winter Storm Elliott 2022,Tight,146,11274,44,27310,15615,53754
+Winter Storm Elliott 2022,Other,70,16094,63,20125,14784,50444
+Winter Storm Uri 2021,Tight,282,5759,34,29813,35580,50456
+Winter Storm Uri 2021,Other,6,7585,45,17056,32672,37192

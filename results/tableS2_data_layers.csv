@@ -1,0 +1,6 @@
+layer,public_data_product,use_in_analysis,events
+Load,Actual System Load by Weather Zone; Native Load archive,Hourly load and peak-time cross-check,"Uri, Elliott, January 2025"
+Reserve and price adder,Real-Time ORDC/Reliability Deployment Price Adders and Reserves by SCED Interval,"SCED PRC, RTORDPA, Real-Time Online Capacity, and Real-Time Online High Sustained Limit","Uri, Elliott, January 2025"
+Outage capacity,Hourly Resource Outage Capacity,"Resource, intermittent renewable resource, and new-equipment outage envelopes","Uri, Elliott, January 2025"
+Fuel generation,Interconnection Generation by Fuel,15-minute fuel output aggregated to hourly profiles,"Uri, Elliott, January 2025"
+FERC/NERC event reports,FERC/NERC event and performance reports,Report-level unavailable generation and firm-load-shed context,"Uri, Elliott, January 2025"

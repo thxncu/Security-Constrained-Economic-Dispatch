@@ -1,6 +1,6 @@
-MIT License
+MIT License (code)
 
-Copyright (c) 2026 thxncu
+Copyright (c) 2026 Chankook Park
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-------------------------------------------------------------------------------
+
+Data (Creative Commons Attribution 4.0 International, CC BY 4.0)
+
+The derived data panels in the data/ directory are licensed under CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/). They are transformations of
+public ERCOT products; the Electric Reliability Council of Texas (ERCOT)
+retains all rights in the underlying raw products. See data/PROVENANCE.md for
+source products, access date, and the derivation of each panel.
