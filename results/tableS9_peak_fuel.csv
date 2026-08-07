@@ -1,4 +1,0 @@
-event,peak_load_hour,load_mw,wind_mw,solar_mw,gas_mw,coal_mw,nuclear_mw
-January 2025 main,2025-01-22 07:00:00,77537,21219,623,38909,9681,5112
-Winter Storm Elliott 2022,2022-12-23 07:00:00,73963,12215,165,45812,9406,5105
-Winter Storm Uri 2021,2021-02-14 19:00:00,69222,8079,6,44262,10816,5121
