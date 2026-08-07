@@ -1,0 +1,13 @@
+event,shock_gw,retained_gw,ree_gwh,chi,sced_intervals
+January 2025 main,10,0,62,0.043,1728
+January 2025 main,10,3,292,0.203,1728
+January 2025 main,15,0,515,0.239,1728
+January 2025 main,15,3,915,0.424,1728
+Winter Storm Elliott 2022,10,0,556,0.257,2592
+Winter Storm Elliott 2022,10,3,1162,0.538,2592
+Winter Storm Elliott 2022,15,0,1593,0.492,2592
+Winter Storm Elliott 2022,15,3,2241,0.692,2592
+Winter Storm Uri 2021,10,0,1635,0.568,3456
+Winter Storm Uri 2021,10,3,2446,0.849,3456
+Winter Storm Uri 2021,15,0,3075,0.712,3456
+Winter Storm Uri 2021,15,3,3886,0.899,3456

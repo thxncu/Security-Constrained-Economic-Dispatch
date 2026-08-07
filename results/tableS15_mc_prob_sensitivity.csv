@@ -1,0 +1,9 @@
+probability_vector,p_none,p_january,p_elliott,p_uri,eue_gwh_per_winter
+"Baseline demonstration (8/15, 4/15, 2/15, 1/15)",0.5333,0.2667,0.1333,0.0667,574
+Event classes half as frequent,0.7667,0.1333,0.0667,0.0333,287
+Event classes 1.5x as frequent,0.3,0.4,0.2,0.1,861
+"Equal event-class probabilities (12/15, 1/15 each)",0.8,0.0667,0.0667,0.0667,349
+"Uri class half as frequent, others at baseline",0.5667,0.2667,0.1333,0.0333,473
+Conditional mean REE given Jan. 2025 class (GWh),,,,,590
+Conditional mean REE given Elliott 2022 class (GWh),,,,,1613
+Conditional mean REE given Uri 2021 class (GWh),,,,,3030

@@ -1,0 +1,4 @@
+event,max_res_irr_outage_mw,max_all_envelope_mw,reported_unavailable_generation_mw,firm_load_shed_mw,report_ratio,interpretation
+January 2025 main,15372,20790,71022,0,0.0,Non-load-shed stress event
+Winter Storm Elliott 2022,19213,24422,90500,5400,0.06,Broader multi-region cold event
+Winter Storm Uri 2021,53641,57044,61305,23418,0.382,Realized emergency event

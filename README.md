@@ -5,7 +5,7 @@ Replication package for:
 > **Security-Constrained Economic Dispatch (SCED)-native reserve-exceedance estimation for public-data reliability screening in power systems.**
 > Submitted to *Electric Power Systems Research* (Ms. Ref. EPSR-D-26-05120).
 
-This repository reproduces every table and figure in the manuscript from **derived,
+This repository reproduces every numerical table and the data series behind every figure in the manuscript from **derived,
 copyright-safe** operating-data panels for three ERCOT winter stress events. It does
 **not** redistribute raw ERCOT files; see [Data and copyright](#data-and-copyright).
 
@@ -31,6 +31,21 @@ The package reproduces, among other results:
 - the tight-hour incidence/depth mechanism decomposition;
 - the illustrative Monte Carlo bridge to EUE (**577 GWh per winter**, demonstration values).
 
+Second-revision additions (round-2 referee requests):
+
+- day-block bootstrap 95 % intervals for the conditional REE and χ estimates
+  (`tableS13_block_bootstrap_ci.csv`); at 15 GW the χ intervals of adjacent events do
+  not overlap under either retained-reserve case, so the severity ordering is robust
+  to within-event day composition;
+- a numerical verification that REE is convex in the shock magnitude
+  (`tableS14_convexity_check.csv`), supporting the convexity proposition in the paper;
+- the mixture decomposition of the Monte Carlo bridge, EUE = Σ p_c · E[REE | c], with
+  class-conditional means and EUE reweighted under alternative winter-event-class
+  probability vectors (`tableS15_mc_prob_sensitivity.csv`), so readers can substitute
+  their own class probabilities without re-running the simulation;
+- a runtime and environment report (`runtime_report.csv`): the full pipeline
+  regenerates every output in roughly ten seconds on a commodity machine.
+
 ---
 
 ## Quick start
@@ -39,7 +54,7 @@ The package reproduces, among other results:
 # 1. create the environment
 pip install -r requirements.txt          # or: conda env create -f environment.yml
 
-# 2. regenerate every table and figure
+# 2. regenerate every numerical table and all analysis figures
 python scripts/run_all.py
 
 # 3. confirm the outputs match the manuscript
@@ -50,8 +65,7 @@ python scripts/verify_against_manuscript.py
 `verify_against_manuscript.py` asserts that the regenerated numbers match the values
 reported in the paper and exits non-zero on any mismatch.
 
-Every data-bearing table and figure in the paper is regenerated: main-text Tables 3-8
-and Figures 1-3, and Supplementary Tables S2, S3, S5-S12 and Figures S1-S6. The four
+Every numerical table in the paper is regenerated: main-text Tables 3-8 and Supplementary Tables S2, S3, S5-S16, plus the runtime and environment report. Analysis figures (Figures 2-3 and S1-S6) are regenerated from the same panels up to the final styling applied in the article file; the workflow diagram (Figure 1) is illustrative and prepared in the article file. The four
 purely descriptive items (Table 1 and Table S1 nomenclature, Table 2 qualitative
 comparison, Table S4 evidence-hierarchy tiers) contain no computed values and are not
 emitted.
@@ -84,7 +98,8 @@ table or figure it produces, so individual results can be regenerated in isolati
 │   ├── estimator.py              native / hourly-minimum REE and χ (Eqs. 1-6)
 │   ├── shocks.py                 three shock-trajectory families (Section 3.3)
 │   ├── consistency.py            reserve-scarcity coherence checks (Section 6.3 / S4)
-│   └── montecarlo.py             illustrative Eq. (3) bridge to EUE (Section 6.1)
+│   ├── montecarlo.py             illustrative Eq. (3) bridge to EUE (Section 6.1)
+│   └── bootstrap.py              day-block bootstrap intervals and convexity check (R2 additions)
 ├── scripts/                      one script per manuscript table/figure group
 │   ├── 01_reserve_exceedance_tables.py     (Tables 4, 5; overstatement)
 │   ├── 02_shock_sweep_and_crossings.py     (Table 6, Figure 2)
@@ -92,13 +107,14 @@ table or figure it produces, so individual results can be regenerated in isolati
 │   ├── 04_alternative_buffers.py           (Table S8)
 │   ├── 05_documented_state_alignment.py    (Table 8, Figure 3; Uri decomposition)
 │   ├── 06_mechanism_decomposition.py       (Tables S9, S10; incidence/depth)
-│   ├── 07_montecarlo_bridge.py             (MC bridge, Figure S6)
+│   ├── 07_montecarlo_bridge.py             (MC bridge, Figure S6, Table S15)
 │   ├── 08_consistency_checks.py            (Table S6)
 │   ├── 09_event_summary_audit.py           (Table 3, Table S3)
 │   ├── 10_supplementary_tables.py          (Tables S2, S5, S11, S12)
 │   ├── 11_supplementary_figures.py         (Figures S1-S5)
 │   ├── 12_workflow_figure.py               (Figure 1)
-│   ├── run_all.py                          (regenerate everything)
+│   ├── 13_bootstrap_ci.py                  (Tables S13, S14; R2 additions)
+│   ├── run_all.py                          (regenerate everything; writes runtime_report.csv)
 │   └── verify_against_manuscript.py        (assert outputs match the paper)
 ├── results/                      regenerated CSV tables (tracked for convenience)
 └── figures/                      regenerated PNG figures

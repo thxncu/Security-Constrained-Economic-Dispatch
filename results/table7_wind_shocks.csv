@@ -1,0 +1,7 @@
+event,alpha,total_shock_energy_gwh,chi_wind,equal_energy_constant_gw,chi_constant,delta_chi
+January 2025 main,0.5,1051,0.114,7.3,0.073,0.041
+January 2025 main,1.0,2101,0.455,14.59,0.408,0.047
+Winter Storm Elliott 2022,0.5,1386,0.364,6.42,0.328,0.036
+Winter Storm Elliott 2022,1.0,2773,0.656,12.84,0.64,0.016
+Winter Storm Uri 2021,0.5,835,0.508,2.9,0.566,-0.058
+Winter Storm Uri 2021,1.0,1670,0.74,5.8,0.741,-0.001

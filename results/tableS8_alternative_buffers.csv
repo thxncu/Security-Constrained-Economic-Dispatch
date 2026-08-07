@@ -1,0 +1,10 @@
+event,buffer,min_buffer_mw,chi_retained_0,chi_retained_3
+January 2025 main,PRC,6213,0.239,0.424
+January 2025 main,RTOLCAP,8799,0.029,0.085
+January 2025 main,RTOLCAP+RTOFFCAP,12268,0.003,0.015
+Winter Storm Elliott 2022,PRC,4073,0.492,0.692
+Winter Storm Elliott 2022,RTOLCAP,4247,0.156,0.27
+Winter Storm Elliott 2022,RTOLCAP+RTOFFCAP,5447,0.053,0.109
+Winter Storm Uri 2021,PRC,747,0.712,0.899
+Winter Storm Uri 2021,RTOLCAP,546,0.458,0.627
+Winter Storm Uri 2021,RTOLCAP+RTOFFCAP,546,0.388,0.549

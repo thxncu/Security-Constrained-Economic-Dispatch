@@ -1,0 +1,22 @@
+kind,item,value_seconds_or_version
+step,09_event_summary_audit.py,1.19
+step,01_reserve_exceedance_tables.py,0.18
+step,02_shock_sweep_and_crossings.py,0.67
+step,03_event_specific_and_wind_shocks.py,0.14
+step,04_alternative_buffers.py,0.02
+step,05_documented_state_alignment.py,0.19
+step,06_mechanism_decomposition.py,0.13
+step,07_montecarlo_bridge.py,1.62
+step,08_consistency_checks.py,3.98
+step,10_supplementary_tables.py,0.03
+step,11_supplementary_figures.py,1.46
+step,12_workflow_figure.py,0.27
+step,13_bootstrap_ci.py,0.41
+step,TOTAL,10.28
+environment,python,3.12.3
+environment,platform,Linux 6.18.5-fc-v18 (x86_64)
+environment,numpy,2.4.4
+environment,pandas,3.0.2
+environment,matplotlib,3.10.8
+environment,scikit-learn,1.8.0
+environment,run_timestamp_utc,2026-08-07T08:50:59+00:00
