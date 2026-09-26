@@ -1,0 +1,13 @@
+{
+  "mean_ree_gwh": 577.1532629609469,
+  "mc_se_gwh": 6.963979011311674,
+  "median_gwh": 0.0,
+  "p95_gwh": 2806.40728919872,
+  "p99_gwh": 4292.3040507573905,
+  "draws": 20000,
+  "seed": 2026,
+  "contribution_none_gwh": 0.0,
+  "contribution_january_2025_gwh": 158.60973170863892,
+  "contribution_elliott_2022_gwh": 209.45878765799424,
+  "contribution_uri_2021_gwh": 209.08474359431378
+}

@@ -1,0 +1,18 @@
+{
+  "release": "submission-baseline-merged-20260926",
+  "reference_file_count": 39,
+  "validation_command": "python run_all.py",
+  "expected_checks": {
+    "fixed_decimal_cases": 20,
+    "wind_cases": 20,
+    "sensitivity_cases": 6750,
+    "randomized_property_assertions": 6000,
+    "persistence_cases": 160,
+    "primary_full_lookahead_cases": 80,
+    "boundary_convention_cases": 80,
+    "publication_figure_sets": 5,
+    "selection_days_checked": 365,
+    "reserve_tail_events": 5
+  },
+  "scope": "Numerical reproduction from included analytical inputs. Manuscripts, correspondence and personal records are excluded; this computational archive does not validate Word pagination, bibliography or physical adequacy."
+}

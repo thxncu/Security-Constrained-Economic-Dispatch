@@ -1,0 +1,2 @@
+event,threshold_mw,first_execution_stamp,floored_slot,prc_mw,declaration_stamp,within_eea_grid_slots,within_eea_below_threshold,outside_eea_below_threshold,recorded_lead_minutes
+uri_2021,2300,2021-02-15 00:12:41,2021-02-15 00:10:00,2083.31,2021-02-15 00:15:00,1257,420,1,2.316666666666667
