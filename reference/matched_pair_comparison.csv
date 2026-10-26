@@ -1,0 +1,11 @@
+lower,upper,combinations,lower_strictly_below,ties,lower_above_upper,smallest_margin_upper_minus_lower,smallest_margin_shock_ge_2gw,tie_max_shock_gw,ties_all_zero_chi,crossing_bases,crossing_end_shifts_h,crossing_shock_min_gw,crossing_shock_max_gw,crossings_at_15gw
+january_2025,elliott_2022,1350,1197,153,0,0.0,0.0,5.0,True,,,,,0
+elliott_2022,uri_2021,1350,1350,0,0,0.0003479141865079,0.0071083606150793,,True,,,,,0
+january_2025,uri_2021,1350,1350,0,0,0.0003479141865079,0.0071083606150793,,True,,,,,0
+february_2022,elliott_2022,1350,1148,147,55,-0.0281327974537037,-0.0281327974537037,5.0,True,PRC,24,1.0,25.0,2
+july_2022,uri_2021,1350,1350,0,0,0.0003479141865079,0.0038508290509260412,,True,,,,,0
+january_2025,february_2022,1350,961,333,56,-0.003136357390873007,-0.003136357390873007,12.0,True,RTOLCAP;RTOLCAP+RTOFFCAP,-24;0;24,6.0,18.0,1
+elliott_2022,july_2022,1350,1296,54,0,0.0,0.0,2.0,True,,,,,0
+february_2022,july_2022,1350,1296,54,0,0.0,0.0,2.0,True,,,,,0
+january_2025,july_2022,1350,1296,54,0,0.0,0.0,2.0,True,,,,,0
+february_2022,uri_2021,1350,1350,0,0,0.0003479141865079,0.0071083606150793,,True,,,,,0

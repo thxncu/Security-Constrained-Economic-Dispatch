@@ -1,0 +1,6 @@
+case,duration_h,shock_gw,nominal_buffer_gw,initial_energy_gwh,activation_delay_h,ree_gwh,physical_ue_gwh
+Energy-limited store,0.25,1.0,1.0,1.0,0.0,0.0,0.0
+Energy-limited store,1.0,1.0,1.0,1.0,0.0,0.0,0.0
+Energy-limited store,4.0,1.0,1.0,1.0,0.0,0.0,3.0
+Energy-limited store,12.0,1.0,1.0,1.0,0.0,0.0,11.0
+Uncredited corrective supply,4.0,1.0,0.0,,0.25,4.0,0.25

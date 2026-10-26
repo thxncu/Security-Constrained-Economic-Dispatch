@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite the version-specific Zenodo DOI shown on its record."
+title: "Reproduction archive for: Security-Constrained Economic Dispatch (SCED)-native reserve-exceedance estimation for public-data reliability screening in power systems: evidence from five ERCOT operating windows"
+type: dataset
+authors:
+  - family-names: Park
+    given-names: Chankook
+    affiliation: "Division of Climate Change, Hankuk University of Foreign Studies, Yongin, Republic of Korea"
+    orcid: "https://orcid.org/0000-0002-5433-9937"
+version: "1.0"
+date-released: "2026-10-25"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/thxncu/Security-Constrained-Economic-Dispatch"
+keywords:
+  - reserve-exceedance energy
+  - operating reserves
+  - Physical Responsive Capability
+  - ERCOT
+  - SCED
+  - public-data screening
+abstract: "Analysis code, derived five-minute ERCOT reserve panels and full-precision reference results for five ERCOT operating windows (Uri 2021, Elliott 2022, January 2025, February 2022 and July 2022). run_all.py regenerates every numerical table and analysis figure in a new directory and compares the results with the reference files. Code: MIT License; derived data: CC BY 4.0."
